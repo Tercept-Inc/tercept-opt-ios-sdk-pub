@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name TerceptSDK
+import Foundation
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+@objc public class TerceptOptimization : ObjectiveC.NSObject {
+  public static var sdkVersion: Swift.String
+  public static var isDebugMode: Swift.Bool
+  public init(_ networkCode: Swift.String)
+  public func initParams(_ IDFA: Swift.String, _ IDFV: Swift.String, _ params: [Swift.String : Any]?)
+  public func initParams(_ IDFA: Swift.String, _ IDFV: Swift.String)
+  public func fetch(_ adunits: [Swift.String]?)
+  public func logEvent(_ adunit: Swift.String?, _ event: Swift.String?) -> Swift.Bool
+  public func logEvent(_ adunit: Swift.String?, _ event: Swift.String?, _ customParams: [Swift.String : Any]) -> Swift.Bool
+  public func getEventsData() -> [Swift.String : Any]?
+  public func sendEventsData()
+  public func setCustomParameters(_ params: [Swift.String : Swift.String])
+  public func getCustomTargetingKeys(_ adunit: Swift.String?) -> Swift.Dictionary<Swift.String, Swift.String?>
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIDevice {
+  public static var modelName: Swift.String
+}
+public protocol Callable {
+  associatedtype R
+  func call() -> Self.R
+}
+public protocol TaskRunner_Callback {
+  associatedtype R
+  func onComplete(result: Self.R)
+}
