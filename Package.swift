@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "tercept_ios_sdk_demo",
+    name: "TerceptSDK",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "tercept_ios_sdk_demo",
-            targets: ["tercept_ios_sdk_demo"]),
+            name: "TerceptSDK",
+            targets: ["TerceptSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -17,7 +17,7 @@ let package = Package(
     ],
     
     targets: [
-        .binaryTarget(name: "tercept_ios_sdk_demo", path: "./Sources/tercept_ios_sdk_demo.xcframework")
+        .binaryTarget(name: "TerceptSDK", path: "./Sources/TerceptSDK.xcframework")
     ]
     
 )
