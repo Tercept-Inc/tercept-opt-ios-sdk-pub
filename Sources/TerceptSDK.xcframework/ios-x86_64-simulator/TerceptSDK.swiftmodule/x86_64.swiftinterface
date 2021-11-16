@@ -7,7 +7,20 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-@_hasMissingDesignatedInitializers public class TerceptOptimization {
+public class TerceptOptimization {
+  public init(_ networkCode: Swift.String, _ IDFA: Swift.String?, _ IDFV: Swift.String, _ params: [Swift.String : Swift.String])
+  public convenience init(_ networkCode: Swift.String, _ IDFA: Swift.String?, _ IDFV: Swift.String)
+  public convenience init(_ networkCode: Swift.String, useIdfa flag: Swift.Bool)
+  public convenience init(_ networkCode: Swift.String, useIdfa flag: Swift.Bool, _ params: [Swift.String : Swift.String])
+  public func fetch(_ adunits: [Swift.String])
+  public func getCustomTargetingKeys(_ adunit: Swift.String) -> [Swift.String : Swift.String]
+  public func logEvent(_ adunit: Swift.String, _ event: Swift.String)
+  public func logEvent(_ adunit: Swift.String, _ event: Swift.String, _ customParameters: [Swift.String : Swift.String])
+  public func logEvent(_ adunit: Swift.String, _ event: TerceptSDK.GAMEVENTS)
+  public func logEvent(_ adunit: Swift.String, _ event: TerceptSDK.GAMEVENTS, _ customParameters: [Swift.String : Swift.String])
+  public func sendEventsData()
+  public func setCustomParameters(_ params: [Swift.String : Swift.String])
+  public func getEventsData() -> Swift.String
   @objc deinit
 }
 public enum GAMEVENTS : Swift.String {
