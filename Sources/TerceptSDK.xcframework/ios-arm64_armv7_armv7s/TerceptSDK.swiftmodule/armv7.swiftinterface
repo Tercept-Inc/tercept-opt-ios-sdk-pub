@@ -13,6 +13,7 @@ public class TerceptOptimization {
   public convenience init(_ networkCode: Swift.String, useIdfa flag: Swift.Bool)
   public convenience init(_ networkCode: Swift.String, useIdfa flag: Swift.Bool, _ params: [Swift.String : Swift.String])
   public func fetch(_ adunits: [Swift.String])
+  public func fetch(_ adunits: [Swift.String], _ dynamicCustomParams: [Swift.String : Swift.String])
   public func getCustomTargetingKeys(_ adunit: Swift.String) -> [Swift.String : Swift.String]
   public func logEvent(_ adunit: Swift.String, _ event: Swift.String)
   public func logEvent(_ adunit: Swift.String, _ event: Swift.String, _ customParameters: [Swift.String : Swift.String])
