@@ -80,8 +80,7 @@ This function initiates an asynchronous HTTPS GET request which obtains ad-unit 
   - `adunits`: [String] -> List of strings representing the list of unique ad-unit names.
   - `dynamicCustomParams`: [String: String] -> customParams for each fetch(which is unique to each fetch request)
 
-> Ideally, we should send in all the ad units at once specific to a
-> particular page which user is viewing.
+> Ideally, we should send in all the ad units in the app at once 
 
 ---
 
