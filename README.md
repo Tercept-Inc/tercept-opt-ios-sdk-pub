@@ -7,19 +7,16 @@ Steps to add 'TerceptSDK' Swift Package to Xcode project.
 
     b.  Go to File \> Swift Packages \> Add Package Dependency.
 
-    c.  Type
-        > [https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub](https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub)
-        > into the search field and tap next.
+    c.  Type <https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub>
+        into the search field and tap next.
 
-> ![](./media/image3.png){width="4.578125546806649in"
-> height="2.7395833333333335in"}
+> ![](./media/image3.png)
 
 d.  Now, choose the version 4.0.5 to fetch the repository.
 
 e.  Select the target where you will add the package.
 
-> ![](./media/image1.png){width="4.578125546806649in"
-> height="2.866104549431321in"}
+> ![](./media/image1.png)
 
 &nbsp;
 ## Tercept SDK Usage and Functions
