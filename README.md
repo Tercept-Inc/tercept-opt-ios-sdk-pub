@@ -12,7 +12,7 @@ Steps to add 'TerceptSDK' Swift Package to Xcode project.
 
 > ![](./media/image3.png)
 
-d.  Now, choose the version 4.0.5 to fetch the repository.
+d.  Now, choose the version 4.0.6 to fetch the repository.
 
 e.  Select the target where you will add the package.
 
