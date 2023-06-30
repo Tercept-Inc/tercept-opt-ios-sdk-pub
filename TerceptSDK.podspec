@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     }
     s.source       = { :git => 'https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub.git', :tag => "4.0.7" }
     s.requires_arc = true
-    s.platform = :ios, '9.0'
+    s.platform = :ios, '11.0'
     s.ios.vendored_frameworks = 'Sources/TerceptSDK.xcframework'
     s.ios.frameworks = ['UIKit', 'WebKit', 'Foundation', 'AdSupport']
   end
