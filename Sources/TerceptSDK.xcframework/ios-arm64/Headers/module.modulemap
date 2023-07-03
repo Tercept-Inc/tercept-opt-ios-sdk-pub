@@ -1,0 +1,4 @@
+module TerceptSDK {
+    export *
+    module * { export * }
+}
