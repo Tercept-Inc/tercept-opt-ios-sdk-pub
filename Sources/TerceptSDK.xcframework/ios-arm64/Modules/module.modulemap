@@ -1,0 +1,5 @@
+module TerceptSDK {
+    umbrella header "TerceptSDK.h"
+    export *
+    module * { export * }
+}

@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
     s.platform = :ios, '11.0'
     s.ios.vendored_frameworks = 'Sources/TerceptSDK.xcframework'
     s.ios.frameworks = ['UIKit', 'WebKit', 'Foundation', 'AdSupport']
+    s.static_framework = true
   end
