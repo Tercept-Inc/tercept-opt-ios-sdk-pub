@@ -85,77 +85,6 @@
           },
           {
             "kind": "Var",
-            "name": "adunitsData",
-            "printedName": "adunitsData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<Swift.String>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sh"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10TerceptSDK0A8InitDataV07adunitsD033_FBB3F0B7877F73F29C96639DF989EFAALLShySSGvp",
-            "mangledName": "$s10TerceptSDK0A8InitDataV07adunitsD033_FBB3F0B7877F73F29C96639DF989EFAALLShySSGvp",
-            "moduleName": "TerceptSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "customParamsInCache",
-            "printedName": "customParamsInCache",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10TerceptSDK0A8InitDataV19customParamsInCache33_FBB3F0B7877F73F29C96639DF989EFAALLSDySSypGvp",
-            "mangledName": "$s10TerceptSDK0A8InitDataV19customParamsInCache33_FBB3F0B7877F73F29C96639DF989EFAALLSDySSypGvp",
-            "moduleName": "TerceptSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 3,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "networkCode",
             "printedName": "networkCode",
             "children": [
@@ -175,7 +104,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true
           },
@@ -339,58 +268,18 @@
           },
           {
             "kind": "Function",
-            "name": "getAdunitsData",
-            "printedName": "getAdunitsData()",
+            "name": "getCacheData",
+            "printedName": "getCacheData()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<Swift.String>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sh"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerceptSDK0A8InitDataV010getAdunitsD0ShySSGyF",
-            "mangledName": "$s10TerceptSDK0A8InitDataV010getAdunitsD0ShySSGyF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomParamsDataFromCache",
-            "printedName": "getCustomParamsDataFromCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK0A8InitDataV015getCustomParamsD9FromCacheSDySSypGyF",
-            "mangledName": "$s10TerceptSDK0A8InitDataV015getCustomParamsD9FromCacheSDySSypGyF",
+            "usr": "s:10TerceptSDK0A8InitDataV08getCacheD0yyF",
+            "mangledName": "$s10TerceptSDK0A8InitDataV08getCacheD0yyF",
             "moduleName": "TerceptSDK",
             "funcSelfKind": "NonMutating"
           }
@@ -794,22 +683,9 @@
         "children": [
           {
             "kind": "TypeNominal",
-            "name": "Tuple",
-            "printedName": "(Swift.String, Swift.Bool)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ]
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
           },
           {
             "kind": "TypeNominal",
@@ -831,8 +707,8 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:10TerceptSDK04sendA4Data7withUrl0eD09userAgentSS_SbtSS_AA05EventD6ToSendVSStF",
-        "mangledName": "$s10TerceptSDK04sendA4Data7withUrl0eD09userAgentSS_SbtSS_AA05EventD6ToSendVSStF",
+        "usr": "s:10TerceptSDK04sendA4Data7withUrl0eD09userAgentS2S_AA05EventD6ToSendVSStF",
+        "mangledName": "$s10TerceptSDK04sendA4Data7withUrl0eD09userAgentS2S_AA05EventD6ToSendVSStF",
         "moduleName": "TerceptSDK",
         "declAttributes": [
           "AccessControl"
@@ -992,7 +868,7 @@
           {
             "kind": "Function",
             "name": "build",
-            "printedName": "build(type:networkCode:adunits:deviceId:vendorId:deviceInfo:customParams:)",
+            "printedName": "build(type:networkCode:adunits:deviceId:vendorId:deviceInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1043,30 +919,11 @@
                 "name": "DeviceInfo",
                 "printedName": "TerceptSDK.DeviceInfo",
                 "usr": "s:10TerceptSDK10DeviceInfoV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerceptSDK10URLBuilderV5build4type11networkCode7adunits8deviceId06vendorJ00I4Info12customParamsSSAA9ConstantsV8requestsO_SSSaySSGS2SAA06DeviceL0VSDySSypGtFZ",
-            "mangledName": "$s10TerceptSDK10URLBuilderV5build4type11networkCode7adunits8deviceId06vendorJ00I4Info12customParamsSSAA9ConstantsV8requestsO_SSSaySSGS2SAA06DeviceL0VSDySSypGtFZ",
+            "usr": "s:10TerceptSDK10URLBuilderV5build4type11networkCode7adunits8deviceId06vendorJ00I4InfoSSAA9ConstantsV8requestsO_SSSaySSGS2SAA06DeviceL0VtFZ",
+            "mangledName": "$s10TerceptSDK10URLBuilderV5build4type11networkCode7adunits8deviceId06vendorJ00I4InfoSSAA9ConstantsV8requestsO_SSSaySSGS2SAA06DeviceL0VtFZ",
             "moduleName": "TerceptSDK",
             "static": true,
             "funcSelfKind": "NonMutating"
@@ -1074,7 +931,7 @@
           {
             "kind": "Function",
             "name": "buildMeta",
-            "printedName": "buildMeta(type:networkCode:deviceId:vendorId:deviceInfo:)",
+            "printedName": "buildMeta(type:networkCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1093,29 +950,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DeviceInfo",
-                "printedName": "TerceptSDK.DeviceInfo",
-                "usr": "s:10TerceptSDK10DeviceInfoV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerceptSDK10URLBuilderV9buildMeta4type11networkCode8deviceId06vendorJ00I4InfoSSAA9ConstantsV8requestsO_S3SAA06DeviceL0VtFZ",
-            "mangledName": "$s10TerceptSDK10URLBuilderV9buildMeta4type11networkCode8deviceId06vendorJ00I4InfoSSAA9ConstantsV8requestsO_S3SAA06DeviceL0VtFZ",
+            "usr": "s:10TerceptSDK10URLBuilderV9buildMeta4type11networkCodeSSAA9ConstantsV8requestsO_SStFZ",
+            "mangledName": "$s10TerceptSDK10URLBuilderV9buildMeta4type11networkCodeSSAA9ConstantsV8requestsO_SStFZ",
             "moduleName": "TerceptSDK",
             "static": true,
             "funcSelfKind": "NonMutating"
@@ -1235,30 +1074,6 @@
         "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "TerceptSDK"
-      },
-      {
-        "kind": "Var",
-        "name": "TERCEPT_SDK_VERSION",
-        "printedName": "TERCEPT_SDK_VERSION",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10TerceptSDK08TERCEPT_B8_VERSIONSSvp",
-        "mangledName": "$s10TerceptSDK08TERCEPT_B8_VERSIONSSvp",
-        "moduleName": "TerceptSDK",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "isLet": true,
-        "hasStorage": true
       },
       {
         "kind": "TypeDecl",
@@ -1506,61 +1321,6 @@
           },
           {
             "kind": "Function",
-            "name": "fetch",
-            "printedName": "fetch(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK0A12OptimizationC5fetchyySaySSG_SDyS2SGtF",
-            "mangledName": "$s10TerceptSDK0A12OptimizationC5fetchyySaySSG_SDyS2SGtF",
-            "moduleName": "TerceptSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getCustomTargetingKeys",
             "printedName": "getCustomTargetingKeys(_:)",
             "children": [
@@ -1795,8 +1555,7 @@
             "moduleName": "TerceptSDK",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1958,7 +1717,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:_:_:_:)",
+            "printedName": "init(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1977,23 +1736,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10TerceptSDK12CacheManagerVyACSS_S3Stcfc",
-            "mangledName": "$s10TerceptSDK12CacheManagerVyACSS_S3Stcfc",
+            "usr": "s:10TerceptSDK12CacheManagerVyACSS_SStcfc",
+            "mangledName": "$s10TerceptSDK12CacheManagerVyACSS_SStcfc",
             "moduleName": "TerceptSDK",
             "init_kind": "Designated"
           },
@@ -2102,149 +1849,6 @@
             "mangledName": "$s10TerceptSDK12CacheManagerV12readMetadata7withKeyS2S_tF",
             "moduleName": "TerceptSDK",
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveAdunitsData",
-            "printedName": "saveAdunitsData(key:val:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV15saveAdunitsData3key3valySS_SStF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV15saveAdunitsData3key3valySS_SStF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "readAdunitsData",
-            "printedName": "readAdunitsData(withKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV15readAdunitsData7withKeyS2S_tF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV15readAdunitsData7withKeyS2S_tF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveCustomParamsData",
-            "printedName": "saveCustomParamsData(key:val:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV20saveCustomParamsData3key3valySS_SStF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV20saveCustomParamsData3key3valySS_SStF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "readCustomParamsData",
-            "printedName": "readCustomParamsData(withKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV20readCustomParamsData7withKeyS2S_tF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV20readCustomParamsData7withKeyS2S_tF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearData",
-            "printedName": "clearData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV9clearDatayyF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV9clearDatayyF",
-            "moduleName": "TerceptSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearMetaData",
-            "printedName": "clearMetaData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10TerceptSDK12CacheManagerV13clearMetaDatayyF",
-            "mangledName": "$s10TerceptSDK12CacheManagerV13clearMetaDatayyF",
-            "moduleName": "TerceptSDK",
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -2254,218 +1858,6 @@
         "declAttributes": [
           "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TerceptSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Function",
-        "name": "aggregateCustomParams",
-        "printedName": "aggregateCustomParams(_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10TerceptSDK21aggregateCustomParamsySDySSypGAC_ACtF",
-        "mangledName": "$s10TerceptSDK21aggregateCustomParamsySDySSypGAC_ACtF",
-        "moduleName": "TerceptSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "writeCustomParamsToCache",
-        "printedName": "writeCustomParamsToCache(_:_:_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "CacheManager",
-            "printedName": "TerceptSDK.CacheManager",
-            "usr": "s:10TerceptSDK12CacheManagerV"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10TerceptSDK24writeCustomParamsToCacheyySDySSypG_AcA0G7ManagerVSStF",
-        "mangledName": "$s10TerceptSDK24writeCustomParamsToCacheyySDySSypG_AcA0G7ManagerVSStF",
-        "moduleName": "TerceptSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "writeUniqueAdunitCallsToCache",
-        "printedName": "writeUniqueAdunitCallsToCache(_:_:_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Set",
-            "printedName": "Swift.Set<Swift.String>",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:Sh"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Set",
-            "printedName": "Swift.Set<Swift.String>",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:Sh"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "CacheManager",
-            "printedName": "TerceptSDK.CacheManager",
-            "usr": "s:10TerceptSDK12CacheManagerV"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10TerceptSDK29writeUniqueAdunitCallsToCacheyyShySSG_AcA0H7ManagerVSStF",
-        "mangledName": "$s10TerceptSDK29writeUniqueAdunitCallsToCacheyyShySSG_AcA0H7ManagerVSStF",
-        "moduleName": "TerceptSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -2631,30 +2023,6 @@
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "tercept_sdk_version",
-            "printedName": "tercept_sdk_version",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10TerceptSDK10DeviceInfoV19tercept_sdk_version33_9D0589D8DE8052089ACFF38A20190CA3LLSSvp",
-            "mangledName": "$s10TerceptSDK10DeviceInfoV19tercept_sdk_version33_9D0589D8DE8052089ACFF38A20190CA3LLSSvp",
-            "moduleName": "TerceptSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -4473,104 +3841,6 @@
                 "declKind": "Accessor",
                 "usr": "s:10TerceptSDK9ConstantsV31TERCEPT_METADATA_CACHE_KEY_NAMESSvgZ",
                 "mangledName": "$s10TerceptSDK9ConstantsV31TERCEPT_METADATA_CACHE_KEY_NAMESSvgZ",
-                "moduleName": "TerceptSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "TERCEPT_ADUNITDATA_CACHE_KEY_NAME",
-            "printedName": "TERCEPT_ADUNITDATA_CACHE_KEY_NAME",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10TerceptSDK9ConstantsV33TERCEPT_ADUNITDATA_CACHE_KEY_NAMESSvpZ",
-            "mangledName": "$s10TerceptSDK9ConstantsV33TERCEPT_ADUNITDATA_CACHE_KEY_NAMESSvpZ",
-            "moduleName": "TerceptSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10TerceptSDK9ConstantsV33TERCEPT_ADUNITDATA_CACHE_KEY_NAMESSvgZ",
-                "mangledName": "$s10TerceptSDK9ConstantsV33TERCEPT_ADUNITDATA_CACHE_KEY_NAMESSvgZ",
-                "moduleName": "TerceptSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAME",
-            "printedName": "TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAME",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10TerceptSDK9ConstantsV36TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAMESSvpZ",
-            "mangledName": "$s10TerceptSDK9ConstantsV36TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAMESSvpZ",
-            "moduleName": "TerceptSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10TerceptSDK9ConstantsV36TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAMESSvgZ",
-                "mangledName": "$s10TerceptSDK9ConstantsV36TERCEPT_CUSTOM_PARAMS_CACHE_KEY_NAMESSvgZ",
                 "moduleName": "TerceptSDK",
                 "static": true,
                 "implicit": true,
@@ -8518,63 +7788,56 @@
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptDataHandler.swift",
       "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 282,
       "length": 20,
       "value": "\"next_fetch_request\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptDataHandler.swift",
       "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 282,
       "length": 20,
       "value": "\"next_fetch_request\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "StringLiteral",
-      "offset": 167,
-      "length": 7,
-      "value": "\"4.0.7\""
-    },
-    {
-      "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
+      "offset": 190,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "StringLiteral",
-      "offset": 260,
+      "offset": 216,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "StringLiteral",
-      "offset": 479,
+      "offset": 435,
       "length": 7,
       "value": "\"mutex\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 522,
       "length": 15,
       "value": "\"logEventMutex\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 656,
+      "offset": 612,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/TerceptSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 691,
+      "offset": 647,
       "length": 5,
       "value": "false"
     },
@@ -8595,301 +7858,273 @@
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1474,
+      "offset": 1430,
       "length": 7,
       "value": "\"MODEL\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1466,
       "length": 14,
       "value": "\"MANUFACTURER\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1500,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1533,
       "length": 13,
       "value": "\"iOS_VERSION\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1618,
+      "offset": 1574,
       "length": 13,
       "value": "\"APP_VERSION\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1612,
       "length": 10,
       "value": "\"APP_NAME\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 13,
-      "value": "\"TERCEPT_SDK\""
-    },
-    {
-      "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1474,
+      "offset": 1430,
       "length": 7,
       "value": "\"MODEL\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1466,
       "length": 14,
       "value": "\"MANUFACTURER\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1500,
       "length": 5,
       "value": "\"SDK\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1533,
       "length": 13,
       "value": "\"iOS_VERSION\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1618,
+      "offset": 1574,
       "length": 13,
       "value": "\"APP_VERSION\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1612,
       "length": 10,
       "value": "\"APP_NAME\""
-    },
-    {
-      "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 13,
-      "value": "\"TERCEPT_SDK\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 153,
+      "offset": 150,
       "length": 20,
       "value": "[(\"tcpt\", \"TCPT_NL\")]"
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 254,
+      "offset": 251,
       "length": 346,
       "value": "[(\"onAdClosed\", 0), (\"onAdFailedToLoad\", 0), (\"onAdImpression\", 0), (\"onAdLeftApplication\", 0), (\"onAdLoaded\", 0), (\"onAdOpened\", 0), (\"onAdClicked\", 1), (\"onFirstQuartile\", 0), (\"onMidPoint\", 1), (\"onThirdQuartile\", 0), (\"onStarted\", 0), (\"onSkipped\", 0)]"
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 744,
+      "offset": 741,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 788,
       "length": 19,
       "value": "\"serve.tercept.com\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 840,
+      "offset": 837,
       "length": 17,
       "value": "\"b-s.tercept.com\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 892,
       "length": 18,
       "value": "\"\/webview\/segment\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 951,
+      "offset": 948,
       "length": 19,
       "value": "\"\/webview\/metadata\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 995,
       "length": 10,
       "value": "\"\/applogs\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 1034,
       "length": 5,
       "value": "\"e_c\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 1068,
       "length": 6,
       "value": "\"n_id\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1101,
       "length": 6,
       "value": "\"a_id\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1135,
       "length": 6,
       "value": "\"d_id\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1169,
       "length": 6,
       "value": "\"v_id\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1206,
       "length": 5,
       "value": "\"f_p\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1246,
+      "offset": 1243,
       "length": 5,
       "value": "\"c_p\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1285,
       "length": 20,
       "value": "\"next_fetch_request\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1371,
+      "offset": 1368,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1404,
       "length": 11,
       "value": "\"targeting\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1443,
+      "offset": 1440,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1473,
       "length": 10,
       "value": "\"adunitid\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1548,
       "length": 9,
       "value": "\"tercept\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1600,
       "length": 16,
       "value": "\"tercept_config\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1667,
+      "offset": 1664,
       "length": 13,
       "value": "\"adunitsData\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1727,
       "length": 17,
       "value": "\"terceptMetaData\""
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1799,
-      "length": 18,
-      "value": "\"clientAdunitData\""
-    },
-    {
-      "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1872,
-      "length": 24,
-      "value": "\"clientCustomParamsData\""
-    },
-    {
-      "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "Dictionary",
-      "offset": 1928,
+      "offset": 1776,
       "length": 349,
       "value": "[(\"onAdClicked\", 0), (\"onAdClosed\", 1), (\"onAdFailedToLoad\", 2), (\"onAdImpression\", 3), (\"onAdLeftApplication\", 4), (\"onAdLoaded\", 5), (\"onAdOpened\", 6), (\"onFirstQuartile\", 7), (\"onMidPoint\", 8), (\"onThirdQuartile\", 9), (\"onStarted\", 10), (\"onSkipped\", 11)]"
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2339,
+      "offset": 2187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/niteshkumawat\/Desktop\/Tercept\/tercept-opt-ios-sdk-redesigned\/TerceptSDK\/TerceptSDK\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2226,
       "length": 16,
       "value": "\"startingAfresh\""
     },

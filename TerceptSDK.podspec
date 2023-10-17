@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.authors      = {
       'Kushagra Gupta' => 'kushagra.gupta@tercept.com'
     }
-    s.source       = { :git => 'https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub.git', :tag => "4.0.7" }
+    s.source       = { :git => 'https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub.git', :tag => "4.0.1-arm64" }
     s.requires_arc = true
     s.platform = :ios, '11.0'
     s.ios.vendored_frameworks = 'Sources/TerceptSDK.xcframework'
