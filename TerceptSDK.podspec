@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'TerceptSDK'
-    s.version      = "4.0.7"
+    s.version      = "4.0.1-arm64"
     s.summary      = 'Tercept SDK iOS Framework'
     s.description  = 'Library for interaction with Tercept Backend'
     s.homepage     = 'https://github.com/Tercept-Inc/tercept-opt-ios-sdk-pub'
